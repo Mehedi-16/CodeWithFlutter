@@ -1,5 +1,5 @@
 
-# Dart Operators with Example & Output
+# Operators
 
 ---
 
