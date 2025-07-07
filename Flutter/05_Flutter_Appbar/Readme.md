@@ -13,6 +13,11 @@ This Flutter project demonstrates how to customize the `AppBar` in a Flutter app
 
 ---
 
+## ss
+<img width="315" alt="Screenshot 2025-07-07 at 7 09 24 AM" src="https://github.com/user-attachments/assets/103bb7a8-49ea-4122-be39-1262d1a559f6" />
+
+
+
 ## 💻 Code Example
 
 ```dart
