@@ -11,25 +11,37 @@
 ### 🧩 **Code Breakdown and Explanation:**
 
 ```dart
-bottomNavigationBar: BottomNavigationBar(
-  currentIndex: 0,
-  items: [
-    BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-    BottomNavigationBarItem(icon: Icon(Icons.message), label: "Contact"),
-    BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
+bottomNavigationBar: BottomNavigationBar( // Scaffold widget এর bottomNavigationBar property তে BottomNavigationBar widget দেওয়া হয়েছে, যাতে নিচে একটি navigation bar তৈরি হয়।
+  currentIndex: 0, // এটি বলে দিচ্ছে যে কোন tab এখন active (selected)। এখানে 0 মানে প্রথম tab (Home) active।
+  
+  items: [ // Navigation bar-এ তিনটি আইটেম থাকবে — Home, Contact, ও Profile।
+    BottomNavigationBarItem(
+      icon: Icon(Icons.home), // প্রথম আইটেমের আইকন (home icon)
+      label: "Home" // এবং তার লেবেল হচ্ছে Home
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(Icons.message), // দ্বিতীয় আইটেমের আইকন (message icon)
+      label: "Contact" // এবং লেবেল Contact
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(Icons.person), // তৃতীয় আইটেমের আইকন (person icon)
+      label: "Profile" // এবং লেবেল Profile
+    ),
   ],
-  onTap: (int index) {
+  
+  onTap: (int index) { // যখন কোন tab-এ tap করা হবে তখন এই callback ফাংশনটা ট্রিগার হবে
     if (index == 0) {
-      MySnackBar("I'm Home", context);
+      MySnackBar("I'm Home", context); // যদি প্রথম tab (Home) এ tap করা হয়, তাহলে snackbar এ "I'm Home" দেখাবে
     }
     if (index == 1) {
-      MySnackBar("I'm Contact", context);
+      MySnackBar("I'm Contact", context); // যদি দ্বিতীয় tab (Contact) এ tap করা হয়, তাহলে snackbar এ "I'm Contact" দেখাবে
     }
     if (index == 2) {
-      MySnackBar("I'm Profile", context);
+      MySnackBar("I'm Profile", context); // যদি তৃতীয় tab (Profile) এ tap করা হয়, তাহলে snackbar এ "I'm Profile" দেখাবে
     }
   },
 )
+
 ```
 
 ---
