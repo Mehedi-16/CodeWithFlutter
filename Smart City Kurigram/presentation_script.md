@@ -89,8 +89,20 @@
 
 ### 📊 Slide 8: ER Diagram
 
-> Our ER diagram connects user accounts, service listings, feedback records, and notifications.  
-> We used Firebase Firestore to support scalable, real-time data.
+> _This is our ER diagram for Smart City Kurigram._  
+> _At the center, we have the **User** entity — connected to all services._  
+> _Users can be admin or normal users, based on the role field._
+
+> _The diagram is grouped into service categories:_  
+> – **Emergency & Health**: police, fire, hospitals, doctors, blood donors, diagnostics  
+> – **Education & Civic**: institutes, NGOs, job circulars, startup data  
+> – **Transport & Utilities**: bus/train info, electricians, rentals, courier services  
+> – **News & Tourism**: local news posts and tourist spots  
+
+> _We also have a **Feedback** table, linking user ID and service ID, which stores ratings and reviews._
+
+> _Every service module connects back to User, ensuring role-based access and personalized tracking._  
+> _This structure is ready for Firebase or SQL, and supports scaling, filtering, and real-time updates._
 
 ---
 
