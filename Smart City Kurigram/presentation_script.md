@@ -70,14 +70,6 @@
 
 ### 📐 Slide 7: Flowchart
 
-> This flowchart shows the app’s logic — from login and category selection, to service access and complaint tracking.  
->
-অবশ্যই MD.! নিচে তোমার **Smart City Kurigram app flowchart**-এর জন্য একটি সংক্ষিপ্ত এবং slide-ready spoken script দিলাম — একসাথে বুঝিয়ে বলার জন্য একদম পারফেক্ট 🎙️👇
-
----
-
-## 🎤 **Flowchart Narration Script (Short & Complete)**
-
 > _We start by launching the app, showing a splash screen with logo and welcome message._  
 > _If it’s the first time, users see intro slides about app features._
 
