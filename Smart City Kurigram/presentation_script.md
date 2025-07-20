@@ -71,7 +71,27 @@
 ### 📐 Slide 7: Flowchart
 
 > This flowchart shows the app’s logic — from login and category selection, to service access and complaint tracking.  
-> We’ve kept user and admin actions modular and secure.
+>
+অবশ্যই MD.! নিচে তোমার **Smart City Kurigram app flowchart**-এর জন্য একটি সংক্ষিপ্ত এবং slide-ready spoken script দিলাম — একসাথে বুঝিয়ে বলার জন্য একদম পারফেক্ট 🎙️👇
+
+---
+
+## 🎤 **Flowchart Narration Script (Short & Complete)**
+
+> _We start by launching the app, showing a splash screen with logo and welcome message._  
+> _If it’s the first time, users see intro slides about app features._
+
+> _Login options include admin, registered user, or guest. Admins use email/password; others can log in or continue as guest._
+
+> _After login, users land on the home screen with Bangla-English toggle and service icons like emergency, hospitals, education, transport, NGOs, news, and more._
+
+> _Selecting any category opens the service view. Data is fetched from Firebase or MySQL. Admins can add/edit/delete; users can view and give feedback._
+
+> _Users can keep browsing services. Logged-in users also get profile features — edit info, view history, and track usage._
+
+> _Finally, users can log out or exit anytime._
+
+> _This flowchart shows a complete journey — clean, role-based, and user-friendly._
 
 ---
 
